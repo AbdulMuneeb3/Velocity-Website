@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Velocity</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="container-fluid my-3">
+      <div class="row">
+        <div class="col-12 mx-auto">
+          <nav class="navbar navbar-expand-lg navbar-light  ">
+            <div class="container-fluid">
+              <a href='index.html' class="navbar-brand font" >
+                <img class="logo" src="images/logo.png" alt="logo">
+              </a>
+              <div
+                class="collapse navbar-collapse"
+                id="navbarSupportedContent"
+              >
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0 ">
+                  <li class="nav-item ">
+                    <a
+                      href='index.html'
+                      activeclass="menu_active"
+                      class="nav-link  "
+                      aria-current="page"
+                    >
+                      Home
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      href='#About'
+                      activeclass="menu_active"
+                      class="nav-link"
+                    >
+                      About
+                    </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a
+                      href='#Service'
+                      activeclass="menu_active"
+                      class="nav-link"
+                    >
+                      Services
+                    </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a
+                      href='#Contact'
+                      activeclass="menu_active"
+                      class="nav-link"
+                    >
+                      Contact
+                    </a>
+                  </li>
+
+                  <li  class="nav-item ">
+                    <a
+                      href='sign-in/signin.html'
+                      activeclass="menu_active"
+                      id="Signin"
+                      class="nav-link  "
+                      aria-current="page"
+                    >
+                    <button id="btn" class="btn-53">
+                      <div class="original">Sign-in</div>
+                      <div class="letters">
+                        
+                        <span>S</span>
+                        <span>i</span>
+                        <span>g</span>
+                        <span>n</span>
+                        <span>-i</span>
+                        <span>n</span>
+                      </div>
+                    </button>
+                    </a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- /Navbar -->
+
+
+<!-- Main -->
+
+
+
+<section id="header" class="d-flex align-items-center">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-10 mx-auto">
+        <div class="row">
+          <div class="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
+            <h1 class="mt-5">
+              Grow your Businesss with <strong>VELOCITY</strong> <h3 id="tagline">Building Tomorrow's Web Today</h3>
+            </h1>
+            <h2 class="my-3">
+              We are the team of talented developer making websites
+            </h2>
+            <div class="mt-4">
+              <a href="#Service" class="btn-get-started">
+                "Get Started"
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 header-img">
+            <img
+              src="./images/img1.png"
+              class="img-fluid animated"
+              alt="Home img"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- /Main -->
+
+
+
+<!-- About Us -->
+<section id="About" class="container text-center">
+  <div class="row">
+    <div class="col-md-12 my-1">
+      <h1 id="about-head"  class="my-5">About Us</h1>
+    </div>
+    <div class="about-company">
+      <div class="left">
+      At Velocity, our software consulting agency comprises a dynamic team of six passionate professionals. With expertise in software engineering, data science, UX/UI design, and project management, we offer innovative solutions. Our collaborative approach ensures tailored solutions that exceed expectations. From startups to enterprises, we empower clients for success. "Building Tomorrow's Web Today" with excellence and client satisfaction
+    </div>
+    <div class="right">
+      <img id="img" src="images/logo.png" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+    <section  class="container text-center">
+      <div class="row">
+        <div class="col-md-12 my-5">
+          <h1 id="about-head"  class="my-5">Meet Our Team</h1>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-3">
+          <div
+            class="shadow d-flex justify-content-center p-3 rounded-lg flex-column"
+          >
+            <div class="person-img">
+              <img
+                class="img-fluid rounded-circle"
+                src="./images/test_1.png"
+                alt="member-1"
+              />
+            </div>
+            <div class="person-name my-2">
+              <h3>Alina</h3>
+            </div>
+            <div class="info">
+              <h6 style="font-family: poppins">Web Developer</h6>
+            </div>
+            <div class="social-icons my-2">
+              <a style="text-decoration: none" href="#">
+                <i class="fa fa-facebook p-2" aria-hidden="true"></i>
+              </a>
+              <a style="text-decoration: none" href="#">
+                <i class="fa fa-twitter p-2" aria-hidden="true"></i>
+              </a>
+              <a style="text-decoration: none" href="#">
+                <i class="fa fa-instagram p-2" aria-hidden="true"></i>
+              </a>
+            </div>
+            <button type="button" class="btn btn-info btn-lg btn-block">
+              View Profile
+            </button>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-3">
+          <div
+            class="shadow d-flex justify-content-center p-3 rounded-lg flex-column"
+          >
+            <div class="person-img">
+              <img
+                class="img-fluid rounded-circle"
+                src="./images/test_2.png"
+                alt="member-1"
+              />
+            </div>
+            <div class="person-name my-2">
+              <h3>Jawad</h3>
+            </div>
+            <div class="info">
+              <h6 style="font-family: poppins">Graphic Desiner</h6>
+            </div>
+            <div class="social-icons my-2">
+              <a style="text-decoration: none" href="#">
+                <i class="fa fa-facebook p-2" aria-hidden="true"></i>
+              </a>
+              <a style="text-decoration: none" href="#">
+                <i class="fa fa-twitter p-2" aria-hidden="true"></i>
+              </a>
+              <a style="text-decoration: none" href="#">
+                <i class="fa fa-instagram p-2" aria-hidden="true"></i>
+              </a>
+            </div>
+            <button type="button" class="btn btn-info btn-lg btn-block">
+              View Profile
+            </button>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-3">
+          <div
+            class="shadow d-flex justify-content-center p-3 rounded-lg flex-column"
+          >
+            <div class="person-img">
+              <img
+                class="img-fluid rounded-circle"
+                src="./images/test_3.png"
+                alt="member-1"
+              />
+            </div>
+            <div class="person-name my-2">
+              <h3>Alexa</h3>
+            </div>
+            <div class="info">
+              <h6 style="font-family: poppins">Software Developer</h6>
+            </div>
+            <div class="social-icons my-2">
+              <a style="text-decoration: none" href="#">
+                <i class="fa fa-facebook p-2" aria-hidden="true"></i>
+              </a>
+              <a style="text-decoration: none" href="#">
+                <i class="fa fa-twitter p-2" aria-hidden="true"></i>
+              </a>
+              <a style="text-decoration: none" href="#">
+                <i class="fa fa-instagram p-2" aria-hidden="true"></i>
+              </a>
+            </div>
+            <button type="button" class="btn btn-info btn-lg btn-block">
+              View Profile
+            </button>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-3">
+          <div
+            class="shadow d-flex justify-content-center p-3 rounded-lg flex-column"
+          >
+            <div class="person-img">
+              <img
+                class="img-fluid rounded-circle"
+                src="./images/test_4.png"
+                alt="member-1"
+              />
+            </div>
+            <div class="person-name my-2">
+              <h3>Dany</h3>
+            </div>
+            <div class="info">
+              <h6 style="font-family: poppins">SEO Specillist</h6>
+            </div>
+            <div class="social-icons my-2">
+              <a style="text-decoration: none" href="#">
+                <i class="fa fa-facebook p-2" aria-hidden="true"></i>
+              </a>
+              <a style="text-decoration: none" href="#">
+                <i class="fa fa-twitter p-2" aria-hidden="true"></i>
+              </a>
+              <a style="text-decoration: none" href="#">
+                <i class="fa fa-instagram p-2" aria-hidden="true"></i>
+              </a>
+            </div>
+            <button type="button" class="btn btn-info btn-lg btn-block">
+              View Profile
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+
+<!-- /About Us -->
+
+
+<!-- Our Services -->
+<div class="serv">
+<div id="Service" class="my-5">
+  <h1 class="text-center">Our Service</h1>
+</div>
+<div class="container-fluid mb-5 ">
+  <div class="row" id="sbg">
+    <div class="col-10 mx-auto ">
+      <div class="row gy-4">       
+        <div class="col-md-4 col-10 mx-auto my-2">
+          <div class="card">
+            <img src="./images/app.jpg" class="card-img-top" alt="Software" />
+            <div class="card-body">
+              <h5 class="card-title text-success font-weight-bold">
+                Custom Website Designing
+              </h5>
+              <p class="card-text">
+                Continuous adaptation ensures optimal performance, relevance, and competitive edge.
+              </p>
+              <a href="cwd.html"">
+             <button>
+  <span id="span-mother">
+    <span>C</span>
+    <span>h</span>
+    <span>e</span>
+    <span>c</span>
+    <span>k</span>
+    <span>-O</span>
+    <span>u</span>
+    <span>t</span>
+  </span>
+  <span id="span-mother2">
+    <span>C</span>
+    <span>h</span>
+    <span>e</span>
+    <span>c</span>
+    <span>k</span>
+    <span>-O</span>
+    <span>u</span>
+    <span>t</span>
+  </span>
+</button>
+
+
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="col-md-4 col-10 mx-auto my-2">
+          <div class="card">
+            <img src="./images/android.jpg" class="card-img-top" alt="Software" />
+            <div class="card-body">
+              <h5 class="card-title text-success font-weight-bold">
+                Responsive Website Development
+              </h5>
+              <p class="card-text">
+                Responsive design ensures consistent experience, accessibility, and engagement across devices.
+              </p>
+              <a href="rweb.html"  >
+             <button>
+  <span id="span-mother">
+    <span>C</span>
+    <span>h</span>
+    <span>e</span>
+    <span>c</span>
+    <span>k</span>
+    <span>-O</span>
+    <span>u</span>
+    <span>t</span>
+  </span>
+  <span id="span-mother2">
+    <span>C</span>
+    <span>h</span>
+    <span>e</span>
+    <span>c</span>
+    <span>k</span>
+    <span>-O</span>
+    <span>u</span>
+    <span>t</span>
+  </span>
+</button>
+
+
+              </a>
+            </div>
+          </div>
+        </div>
+        
+      
+        <div class="col-md-4 col-10 mx-auto my-2">
+          <div class="card">
+            <img src="./images/web.jpg" class="card-img-top" alt="Software" />
+            <div class="card-body">
+              <h5 class="card-title text-success font-weight-bold">
+                E-Commerce Website Development
+              </h5>
+              <p class="card-text">
+                E-commerce enables global reach, sales, convenience, and customer engagement.
+
+              </p>
+              <a href="ecom.html"  >
+             <button>
+  <span id="span-mother">
+    <span>C</span>
+    <span>h</span>
+    <span>e</span>
+    <span>c</span>
+    <span>k</span>
+    <span>-O</span>
+    <span>u</span>
+    <span>t</span>
+  </span>
+  <span id="span-mother2">
+    <span>C</span>
+    <span>h</span>
+    <span>e</span>
+    <span>c</span>
+    <span>k</span>
+    <span>-O</span>
+    <span>u</span>
+    <span>t</span>
+  </span>
+</button>
+
+
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-10 mx-auto my-2">
+          <div class="card">
+            <img src="./images/soft2.jpg" class="card-img-top" alt="Software" />
+            <div class="card-body">
+              <h5 class="card-title text-success font-weight-bold">
+                Content Management System
+              </h5>
+              <p class="card-text">
+                CMS simplifies content creation, editing, customization, and website maintenance.
+              </p>
+              <a href="cms.html"  >
+             <button>
+  <span id="span-mother">
+    <span>C</span>
+    <span>h</span>
+    <span>e</span>
+    <span>c</span>
+    <span>k</span>
+    <span>-O</span>
+    <span>u</span>
+    <span>t</span>
+  </span>
+  <span id="span-mother2">
+    <span>C</span>
+    <span>h</span>
+    <span>e</span>
+    <span>c</span>
+    <span>k</span>
+    <span>-O</span>
+    <span>u</span>
+    <span>t</span>
+  </span>
+</button>
+
+
+              </a>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="col-md-4 col-10 mx-auto my-2">
+          <div class="card">
+            <img src="./images/ai.jpg" class="card-img-top" alt="Software" />
+            <div class="card-body">
+              <h5 class="card-title text-success font-weight-bold">
+                Website Maintenance Ad Support
+              </h5>
+              <p class="card-text">
+                Maintenance sustains performance, security, reliability, ensuring a seamless user experience.
+              </p>
+              <a href="wms.html"  >
+             <button>
+  <span id="span-mother">
+    <span>C</span>
+    <span>h</span>
+    <span>e</span>
+    <span>c</span>
+    <span>k</span>
+    <span>-O</span>
+    <span>u</span>
+    <span>t</span>
+  </span>
+  <span id="span-mother2">
+    <span>C</span>
+    <span>h</span>
+    <span>e</span>
+    <span>c</span>
+    <span>k</span>
+    <span>-O</span>
+    <span>u</span>
+    <span>t</span>
+  </span>
+</button>
+
+
+              </a>
+            </div>
+          </div>
+        </div>
+      
+
+        <div class="col-md-4 col-10 mx-auto my-2">
+          <div class="card">
+            <img src="./images/data.jpg" class="card-img-top" alt="Software" />
+            <div class="card-body">
+              <h5 class="card-title text-success font-weight-bold">
+                Search Engine Optimization (SEO)
+              </h5>
+              <p class="card-text">
+                SEO boosts visibility, traffic, credibility, and conversions, enhancing website performance.
+              </p>
+              <a href="seo.html"  >
+             <button>
+  <span id="span-mother">
+    <span>C</span>
+    <span>h</span>
+    <span>e</span>
+    <span>c</span>
+    <span>k</span>
+    <span>-O</span>
+    <span>u</span>
+    <span>t</span>
+  </span>
+  <span id="span-mother2">
+    <span>C</span>
+    <span>h</span>
+    <span>e</span>
+    <span>c</span>
+    <span>k</span>
+    <span>-O</span>
+    <span>u</span>
+    <span>t</span>
+  </span>
+</button>
+
+
+              </a> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- /Our Services -->
+
+
+
+  <!-- Contact Us -->
+
+  
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!------ Include the above in your HEAD tag ---------->
+  
+  <div id="Contact" class="container contact">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="contact-info">
+          <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image"/>
+          <h2>Contact Us</h2>
+          <h4>We would love to hear from you !</h4>
+        </div>
+      </div>
+      <div class="col-md-9">
+        <div class="contact-form">
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="fname">First Name:</label>
+            <div class="col-sm-10">          
+            <input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="lname">Last Name:</label>
+            <div class="col-sm-10">          
+            <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="email">Email:</label>
+            <div class="col-sm-10">
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="comment">Comment:</label>
+            <div class="col-sm-10">
+            <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
+          </div>
+          <div class="form-group">        
+            <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- /Contact Us -->
+
+ <!-- Footer -->
+<div id="footer">
+  <footer class="footer">
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="social-icon">
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
+    </ul>
+    <ul class="menu">
+      <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+      <li class="menu__item"><a class="menu__link" href="#About">About</a></li>
+      <li class="menu__item"><a class="menu__link" href="#Service">Services</a></li>
+      <li class="menu__item"><a class="menu__link" href="#Contact">Contact</a></li>
+
+    </ul>
+    <p>&copy;2024 Velocity | All Rights Reserved</p>
+  </footer>
+</div>
+  <!-- /Footer -->
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

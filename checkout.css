@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Roboto&display=swap");
+
+/* Navbar */
+* {
+  font-family: "Mulish", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+	background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
+    font-size: 100%;
+            font-family: sans-serif;
+	}
+
+    /* nav */
+    .logo {
+        height: 50px;
+        width: auto;
+     }
+     
+
+    .navbar-brand {
+        font-size: 1.9rem !important;
+        color: #565387 !important;
+      }
+      
+      .navbar-brand:hover {
+        color: #3586ff !important;
+      }
+      
+      .nav-link {
+        font-size: 1.3rem !important;
+        text-transform: capitalize !important;
+      }
+      
+      .menu_active {
+        font-weight: bold;
+        border-bottom: 1px solid #565387;
+      }
+      
+      .nav-link:hover {
+        color: #3586ff !important;
+      }
+      
+      @media (max-width: 991px) {
+        .navbar-brand {
+          font-size: 1.5rem !important;
+        }
+        .menu_active {
+          font-weight: bold;
+          border-bottom: none;
+        }
+      }
+
+      /* main */
+      div, section, span, ul, li, a, header{
+        box-sizing: border-box;
+        
+    }
+    /*css reset*/
+
+    section{
+        width: 100%;
+        float: left;
+        height: 100vh;
+        position: relative;
+    }
+    .heading {
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 55px;
+        margin-top: 0px;
+      background: linear-gradient(to right, rgb(85, 85, 184), rgb(157, 157, 243));
+        color: white;
+        height: 70px;
+    }
+    .container {
+        width: 100%;
+    }
+    .left {
+        float: left;
+        font-size: 25px;
+        width: 60%;
+        margin-top: 100px;
+        margin-left: -90px;
+        text-align: left;
+        color: rgb(107, 115, 197);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .right {
+        float: right;
+        width: 45%;
+        margin-top: 100px;
+        margin-left: 2%;
+    }
+    #img {
+        height: 500px;
+        width: 500px;
+        margin-left: 60px;
+        box-shadow: 0 4px 8px;
+        border-radius: 50px;
+    }
+
+
+      /* /main ********************/
+
+      /* Footer ********************/
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+  #footer {
+    display: flex;
+    /* background: #fff; */
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 50vh;
+  }
+  
+  .footer {
+    position: relative;
+    width: 100%;
+    background: #3586ff;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .social-icon,
+  .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+  
+  .social-icon__item,
+  .menu__item {
+    list-style: none;
+  }
+  
+  .social-icon__link {
+    font-size: 2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  .social-icon__link:hover {
+    transform: translateY(-10px);
+  }
+  
+  .menu__link {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+    text-decoration: none;
+    opacity: 0.75;
+    font-weight: 300;
+  }
+  
+  .menu__link:hover {
+    opacity: 1;
+  }
+  
+  .footer p {
+    color: #fff;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  
+  .wave {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url("https://i.ibb.co/wQZVxxk/wave.png");
+    background-size: 1000px 100px;
+  }
+  
+  .wave#wave1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWaves 4s linear infinite;
+  }
+  
+  .wave#wave2 {
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animate 4s linear infinite !important;
+  }
+  
+  .wave#wave3 {
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWaves 3s linear infinite;
+  }
+  
+  .wave#wave4 {
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animate 3s linear infinite;
+  }
+  
+  @keyframes animateWaves {
+    0% {
+      background-position-x: 1000px;
+    }
+    100% {
+      background-positon-x: 0px;
+    }
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position-x: -1000px;
+    }
+    100% {
+      background-positon-x: 0px;
+    }
+  }
+  /* Fotter  *\******\*****\**/
