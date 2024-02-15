@@ -346,16 +346,23 @@ strong {
   }
 
 
-  #Service{
+  #Service {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 9.8rem;
     background: linear-gradient(to right, #3586ff, #4590ffc3);
-    width: 1320px;
-    /* margin: top 25px; bottom: 25px; */
+    width: 100%; /* Set width to full width */
+    box-sizing: border-box; /* Include padding in width calculation */
   }
-
+  
+  @media (min-width: 768px) {
+    /* Adjust margin-left for screens larger than 768px */
+    #Service {
+      margin-left: calc((100% - 1320px) / 2); /* Center horizontally */
+      max-width: 1320px; /* Set maximum width */
+    }
+  }
+  
 
 /* about us */
 
@@ -363,13 +370,13 @@ strong {
     background: linear-gradient(to right, #3586ff, #4590ffc3);
   }
 
+/* Default styles */
 
-.about-company{
-   height: 28rem;
-   width: 70rem;
-   border-radius: 35px;
-   box-shadow:  5px 5px 10px #bebebedd,
-                -5px -5px 10px #bebebedd;
+.about-company {
+  height: 28rem;
+  width: 70rem;
+  border-radius: 35px;
+  box-shadow: 5px 5px 10px #bebebedd, -5px -5px 10px #bebebedd;
 }
 
 .left {
@@ -382,8 +389,9 @@ strong {
   color: rgb(0, 0, 0);
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .right {
-  float: right; 
+  float: right;
   width: 43%;
   margin-top: 140px;
 }
@@ -391,6 +399,28 @@ strong {
 #img {
   height: 120px;
   width: 450px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .about-company {
+    width: 90%; /* Adjust width for smaller screens */
+    max-width: 500px; /* Set maximum width for smaller screens */
+    height: auto; /* Adjust height to auto for responsiveness */
+    margin: 40px auto; /* Center the element horizontally */
+  }
+
+  .left,
+  .right {
+    width: 100%; /* Adjust width to full width on smaller screens */
+    margin: 20px 0; /* Adjust margin for better spacing */
+    text-align: center; /* Center text for better alignment */
+  }
+
+  #img {
+    width: 100%; /* Adjust width to full width on smaller screens */
+    max-width: 300px; /* Set maximum width for smaller screens */
+  }
 }
 
   /* Footer */
